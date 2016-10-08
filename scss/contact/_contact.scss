@@ -1,0 +1,52 @@
+footer {
+    height: 400px;
+}
+
+footer h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.email {
+    display: block;
+    margin-top: 80px;
+    font-weight: 800;
+}
+
+
+.email a {
+    color: $text-color;
+    font-weight: 500;
+}
+
+
+
+
+
+/* visited link */
+.email a:visited {
+   color: $text-color;
+}
+
+/* mouse over link */
+.email a:hover {
+    color: $text-color;
+}
+
+/* selected link */
+.email a:active {
+    color: $text-color;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    margin-right: 15px;
+}

@@ -1,0 +1,30 @@
+.about {
+    height: 100vh;
+}
+
+.about h3 {
+    font-size: $h3;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.me,
+.skills {
+    width: 40%;
+}
+
+.skills li {
+    list-style-type: none;
+    width: 100px;
+    margin: 0 auto;
+    font-weight: 800;
+}

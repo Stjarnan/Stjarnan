@@ -4,16 +4,18 @@ body {
     font-weight: 500;
     color: $text-color;
     background-color: $main-background-color;
+    line-height: 1.47;
 }
 
 .home {
     font-family: $heading-font;
     font-weight: 900;
+    color: white;
 }
 
 .project img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .background-swap {
