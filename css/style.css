@@ -358,7 +358,10 @@ body {
   font-weight: 500;
   color: black;
   background-color: whitesmoke;
-  line-height: 1.47; }
+  line-height: 1.47;
+  max-width: 1800px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .home {
   font-family: "Playfair Display", serif;
@@ -449,12 +452,12 @@ header li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 80%; }
 
 .project-flex p {
-  width: 33%;
+  width: 40%;
   font-size: 27px; }
 
 .img-box {

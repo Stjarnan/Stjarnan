@@ -5,6 +5,9 @@ body {
     color: $text-color;
     background-color: $main-background-color;
     line-height: 1.47;
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .home {
