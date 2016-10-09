@@ -16,4 +16,9 @@
     display: block;
     margin-bottom: 0;
     text-shadow: 2px 2px 8px black;
+
+    @include mobileOnly {
+        font-size: $h3;
+        text-align: center;
+    }
 }

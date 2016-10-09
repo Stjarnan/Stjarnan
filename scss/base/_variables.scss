@@ -18,3 +18,10 @@ $heading-font               : 'Playfair Display', serif;
 // font-size
 
 $h3                         : 40px;
+
+
+// Mediaquery breakpoints 
+
+$mediaMobile                : '(max-width: 767px)';
+$media768	                : '(min-width: 768px)';
+$media1024	                : '(min-width: 1024px)';

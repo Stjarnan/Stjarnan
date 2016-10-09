@@ -1,10 +1,12 @@
 .about {
-    height: 100vh;
+    @include desktop {
+        height: 800px;
+    }
 }
-
 .about h3 {
     font-size: $h3;
     text-align: center;
+    margin-top: 150px;
 }
 
 .about h2 {
@@ -15,11 +17,32 @@
 .about-flex {
     display: flex;
     justify-content: space-around;
+
+    @include mobileOnly {
+        display: inline-block;
+    }
+
+    @include desktop {
+        height: 500px;
+    }
+    
 }
 
-.me,
+.me {
+    width: 60%;
+    margin: 0 auto;
+
+    @include mobileOnly {
+        width: 80%;
+    }
+    @include desktop {
+        width: 45%;
+    }
+}
+
 .skills {
-    width: 40%;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .skills li {

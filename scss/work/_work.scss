@@ -10,7 +10,9 @@
 }
 
 .project {
-    height: 100vh;
+    @include tablet{
+        height: 100vh;
+    }
 }
 
 .project-flex {
@@ -20,17 +22,37 @@
     width: 90%;
     margin: 0 auto;
     height: 80%;
+
+    @include mobileOnly {
+        flex-wrap: wrap;
+    }
 }
 
 .project-flex p {
-    width: 40%;
+    width: 70%;
     font-size: 27px;
+    margin: 0 auto;
+
+
+    @include mobileOnly {
+        font-size: 20px;
+    }
+
+    @include desktop {
+        width: 40%;
+    }
+
+
 }
 
 .img-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    @include mobileOnly {
+        margin: 0 auto;
+    }
 }
 
 
@@ -39,6 +61,11 @@
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
+
+    @include mobileOnly {
+        justify-content: space-between;
+        width: 60%;
+    }
 }
 
 

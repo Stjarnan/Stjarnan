@@ -1,0 +1,17 @@
+@mixin mobileOnly {
+	@media #{$mediaMobile} {
+	  @content;
+	}
+}
+
+@mixin tablet {
+  @media #{$media768} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$media1024} {
+    @content;
+  }
+}
